@@ -8,6 +8,10 @@ The 4 sorting algorithms I chose to implement were as follows:
 
 I tested them by running them on randomly generated lists of 10, 100, 1000, 10,000, and 100,000 elements. For each list size, I ran the algorithm on 3 lists of that size and averaged the runtimes.
 
-![](runtime_plot.png "")
+Plot with linear scaling on y axis:
+![](runtime_plot.png)
+
+Plot with logarithmic scaling on y axis:
+![](runtimes_log_scale.png)
 
 The green, purple, blue, and red plots represent selection, merge, insertion, and radix sort respectively.
